@@ -174,6 +174,24 @@ main {
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
+
+                    .description {
+                        display: block;
+                        font-size: 10px;
+                        color: #aaa;
+                        font-weight: normal;
+                        margin-top: 4px;
+                    }
+
+                    .more-btn {
+                        color: #aaa;
+                        font-size: 16px;
+                        align-self: flex-start;
+                        &:hover {
+                            color: var(--color);
+                        }
+                    }
+
                     .dropdown {
                         a {
                             display: flex;
@@ -355,6 +373,69 @@ main {
                         }
                     }
 
+                }
+            }
+
+            .widget-marketing {
+                padding: 20px 16px 10px;
+                .get-updates {
+                    .avatars {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 14px 30px 0;
+                        a{
+                            img {
+                                border-radius: 50%;
+                                width: 72px;
+                                height: 72px;
+                            }
+                        }
+                        a:last-child {
+                            img {
+                                width: 84px;
+                                height: 84px;
+                            }
+                        }
+
+                    }
+                    p {
+                        margin-top: 18px;
+                        font-size: 14px;
+                        color: #17272F;
+                        line-height: 20px;
+                        margin-bottom: 18px;
+                    }
+                    span {
+                        font-weight: 500;
+                    }
+                }
+            }
+            
+            .footer {
+                padding-top: 38px;
+                padding-bottom: 16px;
+                nav {
+                    display: flex;
+                    flex-wrap: wrap;
+                    border-bottom: 1px solid #DEDEDE;
+                    margin-bottom: 12px;
+                    a {
+                        font-size: 10px;
+                        color: #aaa;
+                        margin-right: 15px;
+                        margin-bottom: 16px;
+                    }
+                }
+                .copyright {
+                    display: flex;
+                    align-items: center;
+                    font-size: 10px;
+                    color: #aaa;
+                    justify-content: space-between;
+                }
+                img {
+                    height: 12px;
                 }
             }
         }

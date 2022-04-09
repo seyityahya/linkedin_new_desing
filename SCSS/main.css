@@ -401,6 +401,25 @@ main .container .sidebar .widget h6 {
           justify-content: space-between;
 }
 
+main .container .sidebar .widget h6 .description {
+  display: block;
+  font-size: 10px;
+  color: #aaa;
+  font-weight: normal;
+  margin-top: 4px;
+}
+
+main .container .sidebar .widget h6 .more-btn {
+  color: #aaa;
+  font-size: 16px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+main .container .sidebar .widget h6 .more-btn:hover {
+  color: var(--color);
+}
+
 main .container .sidebar .widget h6 .dropdown a {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -635,6 +654,86 @@ main .container .sidebar .widget-recommendation ul li a:last-child {
 
 main .container .sidebar .widget-recommendation ul li a:last-child:hover {
   border: 2px solid var(--color);
+}
+
+main .container .sidebar .widget-marketing {
+  padding: 20px 16px 10px;
+}
+
+main .container .sidebar .widget-marketing .get-updates .avatars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 14px 30px 0;
+}
+
+main .container .sidebar .widget-marketing .get-updates .avatars a img {
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+}
+
+main .container .sidebar .widget-marketing .get-updates .avatars a:last-child img {
+  width: 84px;
+  height: 84px;
+}
+
+main .container .sidebar .widget-marketing .get-updates p {
+  margin-top: 18px;
+  font-size: 14px;
+  color: #17272F;
+  line-height: 20px;
+  margin-bottom: 18px;
+}
+
+main .container .sidebar .widget-marketing .get-updates span {
+  font-weight: 500;
+}
+
+main .container .sidebar .footer {
+  padding-top: 38px;
+  padding-bottom: 16px;
+}
+
+main .container .sidebar .footer nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-bottom: 1px solid #DEDEDE;
+  margin-bottom: 12px;
+}
+
+main .container .sidebar .footer nav a {
+  font-size: 10px;
+  color: #aaa;
+  margin-right: 15px;
+  margin-bottom: 16px;
+}
+
+main .container .sidebar .footer .copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 10px;
+  color: #aaa;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .container .sidebar .footer img {
+  height: 12px;
 }
 
 main .container .content {
