@@ -140,6 +140,7 @@ body {
 main {
     .container {
         display: flex;
+
         .sidebar {
             min-width: 270px;
             width: 270px;
@@ -393,8 +394,8 @@ main {
                         }
                         a:last-child {
                             img {
-                                width: 84px;
-                                height: 84px;
+                                width: 72px;
+                                height: 72px;
                             }
                         }
 
@@ -444,6 +445,81 @@ main {
         .content {
             flex: 1;
             margin: 0 30px;
+            .create-post {
+                background-color: #fff;
+                padding: 16px;
+                border-radius: 6px;
+                margin-bottom: 20px;
+                textarea {
+                    width: 100%;
+                    resize: none;
+                    height: 74px;
+                    font-size: 14px;
+                    &::placeholder {
+                        color: #aaa;
+                    }
+                }
+                .actions {
+                    border-top: 1px solid #EDF0F5;
+                    display: flex;
+                    padding-top: 15px;
+                    li {
+                        flex: 1;
+                        label {
+                            cursor: pointer;
+                            input {
+                                display: none;
+                            }
+                        }
+                        label, a {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            color: #17272F;
+                            font-size: 14px;
+                            i {
+                                margin-right: 8px;
+                                &.icon-camera {
+                                    color: #31B057;
+                                }
+                                &.icon-video {
+                                    color: #388BF2;
+                                }
+                                &.icon-calendar {
+                                    color: #FC8338;
+                                }
+                                &.icon-edit {
+                                    color: #E52A34;
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+
+            .filter-box {
+                height: 42px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background: rgba(#DEDEDE, .24);
+                border-radius: 6px;
+                padding: 0 20px;
+                color: #17272F;
+                h6 {
+                    font-size: 14px;
+                    font-weight: normal;
+                }
+                select {
+                    appearance: none;
+                    background: transparent;
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: #17272F;
+                }
+
+            }
         }
     }
 }

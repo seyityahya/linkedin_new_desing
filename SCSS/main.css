@@ -680,8 +680,8 @@ main .container .sidebar .widget-marketing .get-updates .avatars a img {
 }
 
 main .container .sidebar .widget-marketing .get-updates .avatars a:last-child img {
-  width: 84px;
-  height: 84px;
+  width: 72px;
+  height: 72px;
 }
 
 main .container .sidebar .widget-marketing .get-updates p {
@@ -741,5 +741,123 @@ main .container .content {
       -ms-flex: 1;
           flex: 1;
   margin: 0 30px;
+}
+
+main .container .content .create-post {
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+main .container .content .create-post textarea {
+  width: 100%;
+  resize: none;
+  height: 74px;
+  font-size: 14px;
+}
+
+main .container .content .create-post textarea::-webkit-input-placeholder {
+  color: #aaa;
+}
+
+main .container .content .create-post textarea:-ms-input-placeholder {
+  color: #aaa;
+}
+
+main .container .content .create-post textarea::-ms-input-placeholder {
+  color: #aaa;
+}
+
+main .container .content .create-post textarea::placeholder {
+  color: #aaa;
+}
+
+main .container .content .create-post .actions {
+  border-top: 1px solid #EDF0F5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 15px;
+}
+
+main .container .content .create-post .actions li {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+main .container .content .create-post .actions li label {
+  cursor: pointer;
+}
+
+main .container .content .create-post .actions li label input {
+  display: none;
+}
+
+main .container .content .create-post .actions li label, main .container .content .create-post .actions li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #17272F;
+  font-size: 14px;
+}
+
+main .container .content .create-post .actions li label i, main .container .content .create-post .actions li a i {
+  margin-right: 8px;
+}
+
+main .container .content .create-post .actions li label i.icon-camera, main .container .content .create-post .actions li a i.icon-camera {
+  color: #31B057;
+}
+
+main .container .content .create-post .actions li label i.icon-video, main .container .content .create-post .actions li a i.icon-video {
+  color: #388BF2;
+}
+
+main .container .content .create-post .actions li label i.icon-calendar, main .container .content .create-post .actions li a i.icon-calendar {
+  color: #FC8338;
+}
+
+main .container .content .create-post .actions li label i.icon-edit, main .container .content .create-post .actions li a i.icon-edit {
+  color: #E52A34;
+}
+
+main .container .content .filter-box {
+  height: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(222, 222, 222, 0.24);
+  border-radius: 6px;
+  padding: 0 20px;
+  color: #17272F;
+}
+
+main .container .content .filter-box h6 {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+main .container .content .filter-box select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: transparent;
+  font-size: 14px;
+  font-weight: 500;
+  color: #17272F;
 }
 /*# sourceMappingURL=main.css.map */
